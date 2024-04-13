@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "14309880181",
+    "project_id": "atmos-67323",
+    "storage_bucket": "atmos-67323.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14309880181:android:0db8a97200a1695673a33c",
+        "android_client_info": {
+          "package_name": "com.example.atmos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14309880181-5ovsf4l0vo0pk8u22frfjthcgh1fehh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atmos",
+            "certificate_hash": "5760a4d50b0f142d8c2816d006ccb1b808d0ca0b"
+          }
+        },
+        {
+          "client_id": "14309880181-h781cvm1innrb2o72u6t0fltlcjv8pde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgLc6uS4_XBdyCyZXOA-tdEa-iCbG-lWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14309880181-h781cvm1innrb2o72u6t0fltlcjv8pde.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "14309880181-fu9j1a5olkhon8t8mub0cvc71b16tvm3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.weatherApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+    <base href="$FLUTTER_BASE_HREF">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A Flutter web and mobile app for weather forecast">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="atmos">
+    <meta name="google-signin-client_id" content="14309880181-h781cvm1innrb2o72u6t0fltlcjv8pde.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/api.js" async defer></script>
+
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <title>atmos</title>
+    <link rel="manifest" href="manifest.json">
+
+    <script>
+        // The value below is injected by flutter build, do not touch.
+        const serviceWorkerVersion = null;
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+</head>
+
+<body>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDK4qNKVMBUf-zUk4bVC4ZnkUr5e4aMzTs",
+            authDomain: "atmos-67323.firebaseapp.com",
+            projectId: "atmos-67323",
+            storageBucket: "atmos-67323.appspot.com",
+            messagingSenderId: "14309880181",
+            appId: "1:14309880181:web:26af961fd4eb108a73a33c"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+    <script>
+        window.addEventListener('load', function (ev) {
+            // Download main.dart.js
+            _flutter.loader.loadEntrypoint({
+                serviceWorker: {
+                    serviceWorkerVersion: serviceWorkerVersion,
+                },
+                onEntrypointLoaded: function (engineInitializer) {
+                    engineInitializer.initializeEngine().then(function (appRunner) {
+                        appRunner.runApp();
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
