@@ -6,6 +6,8 @@ Atmos is a Flutter mobile and web app designed for weather forecast. Currently, 
 the user's location and location changing. I'm using a basic API so there are unavailable locations that may appear on the search. When they do, the user is redirected
 to a 404 page and instructed to try a new location. A Google sign-in option is provided to access the app, leveraging the `google_sign_in` and `firebase` packages for seamless authentication and integration with Google services.
 
+* You can use the web version at [Vercel](https://atmos-liveweather.vercel.app)
+
 ### About
 
 Atmos uses the [Open Weather](https://openweathermap.org/api) APIs for forecasting and reverse geocoding and the [Open-Meteo](https://open-meteo.com/) API for location searching. The code is divided into:
